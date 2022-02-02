@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aidan/testProject
+CMAKE_SOURCE_DIR = /home/aidan/testProject-main/testProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aidan/testProject/build
+CMAKE_BINARY_DIR = /home/aidan/testProject-main/testProject/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/test.dir/flags.make
 
 CMakeFiles/test.dir/test.cc.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/test.cc.o: ../test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aidan/testProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/test.cc.o -c /home/aidan/testProject/test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aidan/testProject-main/testProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/test.cc.o -c /home/aidan/testProject-main/testProject/test.cc
 
 CMakeFiles/test.dir/test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aidan/testProject/test.cc > CMakeFiles/test.dir/test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aidan/testProject-main/testProject/test.cc > CMakeFiles/test.dir/test.cc.i
 
 CMakeFiles/test.dir/test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aidan/testProject/test.cc -o CMakeFiles/test.dir/test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aidan/testProject-main/testProject/test.cc -o CMakeFiles/test.dir/test.cc.s
 
 CMakeFiles/test.dir/action.cc.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/action.cc.o: ../action.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aidan/testProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/action.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/action.cc.o -c /home/aidan/testProject/action.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aidan/testProject-main/testProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/action.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/action.cc.o -c /home/aidan/testProject-main/testProject/action.cc
 
 CMakeFiles/test.dir/action.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/action.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aidan/testProject/action.cc > CMakeFiles/test.dir/action.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aidan/testProject-main/testProject/action.cc > CMakeFiles/test.dir/action.cc.i
 
 CMakeFiles/test.dir/action.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/action.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aidan/testProject/action.cc -o CMakeFiles/test.dir/action.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aidan/testProject-main/testProject/action.cc -o CMakeFiles/test.dir/action.cc.s
 
 CMakeFiles/test.dir/construction.cc.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/construction.cc.o: ../construction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aidan/testProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test.dir/construction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/construction.cc.o -c /home/aidan/testProject/construction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aidan/testProject-main/testProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test.dir/construction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/construction.cc.o -c /home/aidan/testProject-main/testProject/construction.cc
 
 CMakeFiles/test.dir/construction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/construction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aidan/testProject/construction.cc > CMakeFiles/test.dir/construction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aidan/testProject-main/testProject/construction.cc > CMakeFiles/test.dir/construction.cc.i
 
 CMakeFiles/test.dir/construction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/construction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aidan/testProject/construction.cc -o CMakeFiles/test.dir/construction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aidan/testProject-main/testProject/construction.cc -o CMakeFiles/test.dir/construction.cc.s
 
 CMakeFiles/test.dir/generator.cc.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/generator.cc.o: ../generator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aidan/testProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test.dir/generator.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/generator.cc.o -c /home/aidan/testProject/generator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aidan/testProject-main/testProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test.dir/generator.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/generator.cc.o -c /home/aidan/testProject-main/testProject/generator.cc
 
 CMakeFiles/test.dir/generator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/generator.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aidan/testProject/generator.cc > CMakeFiles/test.dir/generator.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aidan/testProject-main/testProject/generator.cc > CMakeFiles/test.dir/generator.cc.i
 
 CMakeFiles/test.dir/generator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/generator.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aidan/testProject/generator.cc -o CMakeFiles/test.dir/generator.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aidan/testProject-main/testProject/generator.cc -o CMakeFiles/test.dir/generator.cc.s
 
 CMakeFiles/test.dir/physics.cc.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/physics.cc.o: ../physics.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aidan/testProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test.dir/physics.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/physics.cc.o -c /home/aidan/testProject/physics.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aidan/testProject-main/testProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test.dir/physics.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/physics.cc.o -c /home/aidan/testProject-main/testProject/physics.cc
 
 CMakeFiles/test.dir/physics.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/physics.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aidan/testProject/physics.cc > CMakeFiles/test.dir/physics.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aidan/testProject-main/testProject/physics.cc > CMakeFiles/test.dir/physics.cc.i
 
 CMakeFiles/test.dir/physics.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/physics.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aidan/testProject/physics.cc -o CMakeFiles/test.dir/physics.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aidan/testProject-main/testProject/physics.cc -o CMakeFiles/test.dir/physics.cc.s
 
 # Object files for target test
 test_OBJECTS = \
@@ -139,23 +139,23 @@ test: CMakeFiles/test.dir/construction.cc.o
 test: CMakeFiles/test.dir/generator.cc.o
 test: CMakeFiles/test.dir/physics.cc.o
 test: CMakeFiles/test.dir/build.make
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4Tree.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4FR.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4GMocren.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4visHepRep.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4RayTracer.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4VRML.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4OpenGL.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4gl2ps.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4vis_management.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4modeling.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4interfaces.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4persistency.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4error_propagation.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4readout.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4physicslists.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4tasking.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4parmodels.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4Tree.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4FR.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4GMocren.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4visHepRep.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4RayTracer.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4VRML.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4OpenGL.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4gl2ps.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4vis_management.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4modeling.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4interfaces.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4persistency.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4error_propagation.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4readout.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4physicslists.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4tasking.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4parmodels.so
 test: /usr/lib/x86_64-linux-gnu/libXmu.so
 test: /usr/lib/x86_64-linux-gnu/libXext.so
 test: /usr/lib/x86_64-linux-gnu/libXt.so
@@ -168,26 +168,26 @@ test: /usr/lib/x86_64-linux-gnu/libQt5PrintSupport.so.5.12.8
 test: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
 test: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 test: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4run.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4event.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4tracking.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4processes.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4analysis.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4tools.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4run.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4event.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4tracking.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4processes.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4analysis.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4tools.so
 test: /usr/lib/x86_64-linux-gnu/libexpat.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4digits_hits.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4track.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4particles.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4geometry.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4materials.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4zlib.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4graphics_reps.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4intercoms.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4global.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4clhep.so
-test: /home/aidan/geant4/geant4-v11.0.0-install/lib/libG4ptl.so.0.0.2
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4digits_hits.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4track.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4particles.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4geometry.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4materials.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4zlib.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4graphics_reps.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4intercoms.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4global.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4clhep.so
+test: /home/aidan/software/geant4/geant4-v11.0.0-install/lib/libG4ptl.so.0.0.2
 test: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aidan/testProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aidan/testProject-main/testProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -200,6 +200,6 @@ CMakeFiles/test.dir/clean:
 .PHONY : CMakeFiles/test.dir/clean
 
 CMakeFiles/test.dir/depend:
-	cd /home/aidan/testProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aidan/testProject /home/aidan/testProject /home/aidan/testProject/build /home/aidan/testProject/build /home/aidan/testProject/build/CMakeFiles/test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aidan/testProject-main/testProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aidan/testProject-main/testProject /home/aidan/testProject-main/testProject /home/aidan/testProject-main/testProject/build /home/aidan/testProject-main/testProject/build /home/aidan/testProject-main/testProject/build/CMakeFiles/test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test.dir/depend
 

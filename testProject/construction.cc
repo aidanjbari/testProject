@@ -29,14 +29,14 @@ G4VPhysicalVolume* MyDetectorConstruction::Construct() {
 	CsI->AddElement(nist->FindOrBuildElement("Cs"), 1);
 	CsI->AddElement(nist->FindOrBuildElement("I"), 1);
 	
-	G4double rEnergy[5] = {4.95936772*eV, 2.47968386*eV, 1.23984193*eV, 0.247968386*eV, 0.0619920965*eV};
-	G4double rindexCsI[5] = {2.2094, 1.8067, 1.7576, 1.7428, 1.7280};
-	G4double scintEnergy[9] = {3.542405514*eV, 2.883353325*eV, 2.637961553*eV, 2.5563751134*eV, 2.3843114038*eV, 2.175161280*eV, 2.083767949*eV, 1.96800306*eV, 1.79687236*eV};
-	G4double scintIntensity[9] = {0., 0.2, 0.4, 0.8, 1.0, 0.8, 0.6, 0.4, 0.2};
+	G4double rEnergy[5] = {0.0619920965*eV, 0.247968386*eV, 1.23984193*eV, 2.47968386*eV,4.95936772*eV };
+	G4double rindexCsI[5] = {1.7280, 1.7428, 1.7576, 1.8067, 2.2094 };
+	G4double scintEnergy[9] = {1.79687236*eV, 1.96800306*eV, 2.083767949*eV, 2.175161280*eV, 2.3843114038*eV, 2.5563751134*eV,2.637961553*eV , 2.883353325*eV, 3.542405514*eV};
+	G4double scintIntensity[9] = {0.2, 0.4, 0.6, 0.8, 1.0, 0.8, 0.4, 0.2, 0.};
 	
 	G4MaterialPropertiesTable *mptCsI = new G4MaterialPropertiesTable();
 	mptCsI->AddProperty("SCINTILLATIONCOMPONENT1", scintEnergy, scintIntensity, 9);
-	mptCsI->AddProperty("RINDEX", rEnergy, rindexCsI, 9);
+	mptCsI->AddProperty("RINDEX", rEnergy, rindexCsI, 5);
 	mptCsI->AddConstProperty("SCINTILLATIONYIELD", 54./keV);
 	mptCsI->AddConstProperty("RESOLUTIONSCALE", 1.0);
 	mptCsI->AddConstProperty("SCINTILLATIONTIMECONSTANT1", 1000.*ns);

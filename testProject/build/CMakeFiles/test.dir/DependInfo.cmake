@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/aidan/testProject/action.cc" "/home/aidan/testProject/build/CMakeFiles/test.dir/action.cc.o"
-  "/home/aidan/testProject/construction.cc" "/home/aidan/testProject/build/CMakeFiles/test.dir/construction.cc.o"
-  "/home/aidan/testProject/generator.cc" "/home/aidan/testProject/build/CMakeFiles/test.dir/generator.cc.o"
-  "/home/aidan/testProject/physics.cc" "/home/aidan/testProject/build/CMakeFiles/test.dir/physics.cc.o"
-  "/home/aidan/testProject/test.cc" "/home/aidan/testProject/build/CMakeFiles/test.dir/test.cc.o"
+  "/home/aidan/testProject-main/testProject/action.cc" "/home/aidan/testProject-main/testProject/build/CMakeFiles/test.dir/action.cc.o"
+  "/home/aidan/testProject-main/testProject/construction.cc" "/home/aidan/testProject-main/testProject/build/CMakeFiles/test.dir/construction.cc.o"
+  "/home/aidan/testProject-main/testProject/generator.cc" "/home/aidan/testProject-main/testProject/build/CMakeFiles/test.dir/generator.cc.o"
+  "/home/aidan/testProject-main/testProject/physics.cc" "/home/aidan/testProject-main/testProject/build/CMakeFiles/test.dir/physics.cc.o"
+  "/home/aidan/testProject-main/testProject/test.cc" "/home/aidan/testProject-main/testProject/build/CMakeFiles/test.dir/test.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -30,7 +30,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/aidan/geant4/geant4-v11.0.0-install/include/Geant4"
+  "/home/aidan/software/geant4/geant4-v11.0.0-install/include/Geant4"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
