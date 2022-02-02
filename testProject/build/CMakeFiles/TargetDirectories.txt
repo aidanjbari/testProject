@@ -1,0 +1,4 @@
+/home/aidan/testProject/build/CMakeFiles/rebuild_cache.dir
+/home/aidan/testProject/build/CMakeFiles/testProject.dir
+/home/aidan/testProject/build/CMakeFiles/edit_cache.dir
+/home/aidan/testProject/build/CMakeFiles/test.dir
