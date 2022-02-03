@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/aidan/testProject-main/testProject/detector.cc" "/home/aidan/testProject-main/testProject/build/CMakeFiles/test.dir/detector.cc.o"
   "/home/aidan/testProject-main/testProject/generator.cc" "/home/aidan/testProject-main/testProject/build/CMakeFiles/test.dir/generator.cc.o"
   "/home/aidan/testProject-main/testProject/physics.cc" "/home/aidan/testProject-main/testProject/build/CMakeFiles/test.dir/physics.cc.o"
+  "/home/aidan/testProject-main/testProject/run.cc" "/home/aidan/testProject-main/testProject/build/CMakeFiles/test.dir/run.cc.o"
   "/home/aidan/testProject-main/testProject/test.cc" "/home/aidan/testProject-main/testProject/build/CMakeFiles/test.dir/test.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

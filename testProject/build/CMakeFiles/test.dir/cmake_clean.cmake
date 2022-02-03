@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/test.dir/detector.cc.o"
   "CMakeFiles/test.dir/generator.cc.o"
   "CMakeFiles/test.dir/physics.cc.o"
+  "CMakeFiles/test.dir/run.cc.o"
   "CMakeFiles/test.dir/test.cc.o"
   "test"
   "test.pdb"

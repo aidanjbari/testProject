@@ -20,7 +20,7 @@ public:
 	virtual G4VPhysicalVolume *Construct();
 	
 private:
-	G4LogicalVolume *logicDet;
+	G4LogicalVolume *logicCsI;
 	virtual void ConstructSDandField();
 
 };

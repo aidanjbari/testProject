@@ -47,9 +47,8 @@ G4VPhysicalVolume* MyDetectorConstruction::Construct() {
 	CsI->SetMaterialPropertiesTable(mptCsI);
 	
 	G4Tubs *solidCsI = new G4Tubs("solidCsI", 0.*cm, 5.*cm, 10.*cm, 0.*deg, 360.*deg);
-	G4LogicalVolume *logicCsI = new G4LogicalVolume(solidCsI, CsI, "logicCsI");
-	logicDet = logicCsI;
-	G4VPhysicalVolume *physCsI = new G4PVPlacement(0, G4ThreeVector(0.,0.,0.3*m), logicCsI, "physCsI", logicWorld, false, 0, true);
+	logicCsI = new G4LogicalVolume(solidCsI, CsI, "logicCsI");
+	G4VPhysicalVolume *physCsI = new G4PVPlacement(0, G4ThreeVector(0.,0.,0.3*m), logicCsI, "physCsI", logicWorld, false, 1, true);
 	
 	return physWorld;
 }
@@ -57,5 +56,5 @@ G4VPhysicalVolume* MyDetectorConstruction::Construct() {
 void MyDetectorConstruction::ConstructSDandField() {
 	MySensitiveDetector *sensDet = new MySensitiveDetector("SensitiveDetector");
 	
-	logicDet->SetSensitiveDetector(sensDet);
+	logicCsI->SetSensitiveDetector(sensDet);
 }
