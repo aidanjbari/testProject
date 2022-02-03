@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/aidan/testProject-main/testProject/action.cc" "/home/aidan/testProject-main/testProject/build/CMakeFiles/test.dir/action.cc.o"
   "/home/aidan/testProject-main/testProject/construction.cc" "/home/aidan/testProject-main/testProject/build/CMakeFiles/test.dir/construction.cc.o"
+  "/home/aidan/testProject-main/testProject/detector.cc" "/home/aidan/testProject-main/testProject/build/CMakeFiles/test.dir/detector.cc.o"
   "/home/aidan/testProject-main/testProject/generator.cc" "/home/aidan/testProject-main/testProject/build/CMakeFiles/test.dir/generator.cc.o"
   "/home/aidan/testProject-main/testProject/physics.cc" "/home/aidan/testProject-main/testProject/build/CMakeFiles/test.dir/physics.cc.o"
   "/home/aidan/testProject-main/testProject/test.cc" "/home/aidan/testProject-main/testProject/build/CMakeFiles/test.dir/test.cc.o"
