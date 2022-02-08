@@ -17,6 +17,8 @@ public:
 	MyDetectorConstruction();
 	~MyDetectorConstruction();
 	
+	//G4LogicalVolume *GetScoringVolume() const {return fScoringVolume; }
+	
 	virtual G4VPhysicalVolume *Construct();
 	
 private:

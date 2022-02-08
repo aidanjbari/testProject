@@ -17,6 +17,8 @@ G4bool MySensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *ROhis
 	G4ThreeVector posPhoton = preStepPoint->GetPosition();
 	G4ThreeVector momPhoton = preStepPoint->GetMomentum();
 	
+	G4double eDep = track->GetKineticEnergy();
+	
 	G4double wlen = (1.239841939*eV/momPhoton.mag())*1E+03;
 	
 	G4AnalysisManager *man = G4AnalysisManager::Instance();
@@ -35,6 +37,9 @@ G4bool MySensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *ROhis
 	man->FillNtupleDColumn(1, 2, posPhoton[1]);
 	man->FillNtupleDColumn(1, 3, posPhoton[2]);
 	man->AddNtupleRow(1);
+	
+	man->FillNtupleDColumn(2, 0, energy);
+	man->AddNtupleRow(2);
 	
 	return true;
 }
