@@ -15,11 +15,11 @@ void MyActionInitialization::Build() const {
 	MyRunAction *runAction = new MyRunAction();
 	SetUserAction(runAction);
 	
-	//MyEventAction *eventAction = new MyEventAction(runAction);
-	//SetUserAction(eventAction);
+	MyEventAction *eventAction = new MyEventAction(runAction);
+	SetUserAction(eventAction);
 	
-	//MySteppingAction *steppingAction = new MySteppingAction(eventAction);
-	//SetUserAction(steppingAction);
+	MySteppingAction *steppingAction = new MySteppingAction(eventAction);
+	SetUserAction(steppingAction);
 }
 
 /*void MyActionInitialization::BuildForMaster() const {

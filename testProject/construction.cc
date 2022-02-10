@@ -48,6 +48,7 @@ G4VPhysicalVolume* MyDetectorConstruction::Construct() {
 	
 	G4Tubs *solidCsI = new G4Tubs("solidCsI", 0.*cm, 5.*cm, 10.*cm, 0.*deg, 360.*deg);
 	logicCsI = new G4LogicalVolume(solidCsI, CsI, "logicCsI");
+	fScoringVolume = logicCsI;
 	G4VPhysicalVolume *physCsI = new G4PVPlacement(0, G4ThreeVector(0.,0.,0.3*m), logicCsI, "physCsI", logicWorld, false, 1, true);
 	
 	return physWorld;
